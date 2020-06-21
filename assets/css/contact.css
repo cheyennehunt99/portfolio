@@ -1,6 +1,10 @@
 body {
-    background-image: url('https://w.wallhaven.cc/full/j5/wallhaven-j5elow.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80');
+    background-size: cover;
+  }
+
+  h1 {
+      color: white;
   }

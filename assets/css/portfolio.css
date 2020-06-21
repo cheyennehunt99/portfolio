@@ -1,0 +1,10 @@
+.portfolio-item img:hover {
+    transform: scale(1.1);
+}
+
+.portfolio-item img {
+    transition: transform .4s ease;
+}
+.centered {
+    color: white;
+}
