@@ -12,61 +12,71 @@
     <link rel="stylesheet" type="text/css" href="assets//css/index.css">
           <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-       <!--JavaScript-->
+    <!-- Required Core Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css" integrity="sha512-wCwx+DYp8LDIaTem/rpXubV/C1WiNRsEVqoztV0NZm8tiTvsUeSlA/Uz02VTGSiqfzAHD4RnqVoevMcRZgYEcQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" integrity="sha512-wYsVD8ho6rJOAo1Xf92gguhOGQ+aWgxuyKydjyEax4bnuEmHUt6VGwgpUqN8VlB4w50d0nt+ZL+3pgaFMAmdNQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <!--JavaScript-->
        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   </head>
+       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      </head>
+
  
 
 <body>
-  <style>
-    body {
-      background-image: url('img/rez.jpg');
-      background-size: cover;
-    }
-    </style>
 
       <!--Navigation-->
-  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">My Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>  
-    </div>
-    <ul>
-      <li><a href="https://www.facebook.com/cheyenne.hunt.16">Facebook</a></li>
-      <li><a href="https://www.linkedin.com/in/cheyenne-hunt-73a8271b0?trk=people-guest_people_search-card/">LinkedIn</a></li>
-      <li><a href="https://github.com/">GitHub</a></li>
-    </ul>
+      <nav class="nav">
+        <a class="nav-link" href="contact.html">Contact</a>
     </nav>
       <!--End of Navigation-->
        
       <!--Start of Introduction-->
+     <h1>
+       Welcome
+     </h1>
 
-<section>
-  <article>
+ 
     <h1>My Name is Cheyenne Hunt</h1>
     <p>I am from Seattle, WA</p>
     <p>I currently am learning Full Stack Web Development through UW coding bootcamp.</p>
     <p>I am still building my portfolio</p>
-  </article>
-</section>
-       
+  
+    <div class=".col-lg-8">
+
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="=glide__slide"><img src="img/Prework.jpg"></li>
+            <li class="=glide__slide"><img src="img/PasswordGenerator.jpg"></li>
+            <li class="=glide__slide"><img src="img/DayPlanner.jpg"></li>
+            <li class="=glide__slide"><img src="img/Project1.jpg"></li>
+            <li class="=glide__slide"><img src="img/Quiz.jpg"></li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fa fa-angle-left"></i></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fa fa-angle-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+
+   <footer class="footer">
+      <ul>
+        <li><a href="https://www.facebook.com/cheyenne.hunt.16"><i class="fab fa-facebook-f"></i></li>
+        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></li>
+        <li><a href="https://www.linkedin.com/in/cheyenne-hunt-73a8271b0?trk=people-guest_people_search-card/"><i class="fab fa-linkedin-in"></i></li>
+        <li><a href="https://github.com/"><i class="fab fa-github"></i></li>
+      </ul>
+    </footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js" integrity="sha512-BXASbMmKLu+RC5TDnkupyhvrjiOQXILh/5zgIS8k5JAC71a73lNweVEg/X+9XJQ7GK22PH9WpztY3zqrji+xrQ==" crossorigin="anonymous"></script>
+<script src="assets/js/index.js"></script>
+
 </body>
-
-
 </html>
