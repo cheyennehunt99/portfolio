@@ -33,7 +33,7 @@ Project is created with:
 
 ## Summary
 
-- This project is my portfolio that includes my projects I've done so far. 
+- This is my project portfolio with a built in carousel to display my projects I've built. 
 
 ## Author
 
