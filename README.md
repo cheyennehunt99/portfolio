@@ -15,7 +15,7 @@
 
 My Web Development Portfolio
 
-This project utilizes HTML, CSS, JavaScript, and ES6. 
+This project utilizesgit HTML, CSS, JavaScript, and ES6. 
 
 - React
 - Node.js
