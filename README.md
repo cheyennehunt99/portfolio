@@ -1,6 +1,6 @@
 # Web Development Portfolio
 
-![responsive-portfolio](img/sample.png)
+![responsive-portfolio](img/sample.gif)
 
 ## Table of contents
 
