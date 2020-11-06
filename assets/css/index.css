@@ -13,7 +13,7 @@
 }
 
 body{
-  background-image: url("https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-image: url("../../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: none;
@@ -23,7 +23,6 @@ body{
   justify-content: center;
   overflow: hidden;
 }
-
 .nav{
   float: right;
 }
@@ -64,7 +63,7 @@ ul{
   display: flex;
 }
 ul li{
-  position: center;
+  justify-content: center;
   display: block;
   color: #666;
   font-size: 30px;

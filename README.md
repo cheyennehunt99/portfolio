@@ -1,6 +1,6 @@
 # Web Development Portfolio
 
-![responsive-portfolio](img/preview.png)
+![responsive-portfolio](img/sample.png)
 
 ## Table of contents
 
@@ -33,7 +33,7 @@ Project is created with:
 
 ## Summary
 
-- This is my project portfolio with a built in carousel to display my projects I've built. 
+- This is my project portfolio with a built in carousel to display my projects I've built displaying some of my heroku projects. 
 
 ## Author
 
@@ -43,4 +43,3 @@ Project is created with:
 ## License
 
 - Open Source
-- Created for the University of Washington Code-Boot Camp 2020: Homework 
