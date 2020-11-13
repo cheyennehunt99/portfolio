@@ -35,6 +35,7 @@ Project is created with:
 
 - This is my project portfolio with a built in carousel to display my projects I've built displaying some of my heroku projects. 
 
+Link to portfolio : https://cheyennehunt99.github.io/responsive-portfolio/
 ## Author
 
 - Cheyenne Hunt 
